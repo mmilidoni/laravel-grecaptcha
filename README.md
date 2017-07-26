@@ -31,12 +31,16 @@ Insert the following line on your HTML form
 
 ### Controller
 ```php
-public function store(\Illuminate\Http\Request $request) {
-  $a = new Grecaptcha;
-  if ($a->check($request)) {
-    // Recaptcha OK
-  } else {
-    // Recaptcha KO
-  }
+use Mmilidoni\Grecaptcha\Grecaptcha;
+
+class Example {
+	public function store(\Illuminate\Http\Request $request) {
+	  $a = new Grecaptcha;
+	  if ($a->check($request)) {
+    	// Recaptcha OK
+	  } else {
+    	// Recaptcha KO
+	  }
+	}
 }
 ```

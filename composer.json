@@ -1,0 +1,16 @@
+{
+    "name": "mmilidoni/grecaptcha",
+    "description": "Google Recaptcha Utilities",
+    "license": "Apache Licence 2.0",
+    "authors": [
+        {
+            "name": "Michele Milidoni",
+            "email": "michelemilidoni@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
