@@ -6,7 +6,7 @@ This package allows an easily management of Google Recaptcha on your Laravel pro
 Google Recaptcha V2 *site key* and *secret key* available on [ReCAPTCHA website](https://www.google.com/recaptcha/)
 
 ## Installation
-`composer require mmilidoni/grecaptcha`
+`composer require "mmilidoni/grecaptcha:dev-master"`
 
 ### Configuration
 Add your Recaptcha *site key* and *secret key* on `config/services.php`
